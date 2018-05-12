@@ -15,7 +15,7 @@ provider:
   ...
   environment: # Service wide environment variables
     SLS_SERVICE_NAME: ${self:service.name} 
-    SLS_STAGE: ${opt:stage} 
+    SLS_STAGE: ${self:provider.stage} 
 ```
 
 
