@@ -1,7 +1,7 @@
 {
   "name": "@nutshelllab/service-invoke",
   "description": "Call a lambda in a promised way",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "main": "src/index.js",
   "dependencies": {
     "aws-sdk": "^2.235.1"
@@ -20,12 +20,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/RaisonBlue/lambda-execute.git"
+    "url": "git+https://github.com/RaisonBlue/service-invoke.git"
   },
   "author": "Nutshell <contact@nutshell-lab.com>",
   "license": "GPL-3.0",
   "bugs": {
-    "url": "https://github.com/RaisonBlue/lambda-execute/issues"
+    "url": "https://github.com/RaisonBlue/service-invoke/issues"
   },
-  "homepage": "https://github.com/RaisonBlue/lambda-execute#readme"
+  "homepage": "https://github.com/RaisonBlue/service-invoke#readme"
 }
