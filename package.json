@@ -1,0 +1,31 @@
+{
+  "name": "@nutshelllab/lambda-invoke",
+  "description": "Call a lambda in a promised way",
+  "version": "0.0.1",
+  "main": "src/index.js",
+  "dependencies": {
+    "aws-sdk": "^2.235.1"
+  },
+  "devDependencies": {
+    "babel-loader": "^7.1.4",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "webpack": "^4.8.2",
+    "webpack-cli": "^2.1.3",
+    "webpack-node-externals": "^1.7.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RaisonBlue/lambda-execute.git"
+  },
+  "author": "Nutshell <contact@nutshell-lab.com>",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/RaisonBlue/lambda-execute/issues"
+  },
+  "homepage": "https://github.com/RaisonBlue/lambda-execute#readme"
+}
