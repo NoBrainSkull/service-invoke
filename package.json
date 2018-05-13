@@ -1,7 +1,7 @@
 {
   "name": "@nutshelllab/service-invoke",
   "description": "Call a lambda in a promised way",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "main": "src/index.js",
   "dependencies": {
     "aws-sdk": "^2.235.1"
@@ -11,7 +11,7 @@
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
     "babel-polyfill": "^6.26.0",
     "babel-preset-env": "^1.7.0",
-    "webpack": "^4.8.2",
+    "webpack": "^4.8.3",
     "webpack-cli": "^2.1.3",
     "webpack-node-externals": "^1.7.2"
   },
