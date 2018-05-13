@@ -1,11 +1,11 @@
 const path = require('path')
 const nodeExternals = require('webpack-node-externals')
-const libraryName = 'lambda-execute'
+const libraryName = 'service-invoke'
 const outputfile = libraryName + '.js'
 
 module.exports = {
   entry: './src/index.js',
-  mode: 'development',
+  mode: 'production',
   target: 'node',
   externals: [nodeExternals()],
   output: {

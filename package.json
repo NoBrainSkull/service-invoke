@@ -1,8 +1,8 @@
 {
   "name": "@nutshelllab/service-invoke",
   "description": "Call a lambda in a promised way",
-  "version": "0.0.6",
-  "main": "src/index.js",
+  "version": "0.0.7",
+  "main": "lib/service-invoke.js",
   "dependencies": {
     "aws-sdk": "^2.235.1"
   },
