@@ -4,7 +4,7 @@ import LambdaError from './lambda-error'
 export default async (FunctionName, Payload) => {
   const lambdaReturn = await new AWS.Lambda()
     .invoke({
-      FunctionName: `fafiec-token-dev-${FunctionName}`,
+      FunctionName,
       Payload: JSON.stringify(Payload)
     })
     .promise()
